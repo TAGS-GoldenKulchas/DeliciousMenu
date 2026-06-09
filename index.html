@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TAGS - Professional A5 Menu</title>
+    <title>TAGS - Delicious Menu</title>
     <style>
         /* --- A5 PRINT SPECIFICATIONS --- */
         @page {
@@ -28,7 +28,7 @@
 
         .a5-sheet {
             width: 148mm;
-            height: 200mm;
+            height: 210mm;
             margin: 10px auto;
             position: relative;
             box-sizing: border-box;
@@ -39,14 +39,14 @@
         }
 
         .icing-border {
-            border: 10px solid #FFD700;
+            border: 10px solid #4b220f;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(255, 215, 0, 0.2);
             height: 100%;
             display: flex;
             flex-direction: column;
             box-sizing: border-box;
-            background: #140a05;
+            background: #ffefa9;
             position: relative;
         }
 
@@ -58,7 +58,7 @@
             justify-content: center;
             align-items: center;
             text-align: center;
-            background: radial-gradient(circle, rgba(30, 15, 10, 1), #140a05);
+            background: #ffefa9;
         }
         
         .cover-content { 
@@ -75,15 +75,15 @@
         .partner-logo-small { width: 28px; height: auto; }
         .qr-icon-box { width: 55px; height: 55px; border: 1.5px solid #ffcc66; background: rgba(255, 204, 102, 0.05); margin-bottom: 4px; }
 
-        .special-badge { font-family: 'Brush Script MT', cursive; color: white; font-size: 2.2em; margin-bottom: -10px; }
-        .main-menu-text { font-size: 3.2em; color: #ffcc66; text-transform: uppercase; letter-spacing: 4px; margin: 5px 0; }
-        .cover-logo { width: 350px; height: auto; border-radius: 50%; border: 5px solid #ffcc66; box-shadow: 0 0 20px rgba(255, 204, 102, 0.3); margin: 15px 0; }
+        .special-badge { font-family: 'Brush Script MT', cursive; color: black; font-size: 2.2em; margin-bottom: -10px; }
+        .main-menu-text { font-size: 3.2em; color: #000; text-transform: uppercase; letter-spacing: 4px; margin: 5px 0; }
+        .cover-logo { width: 350px; height: 350px; object-fit: contain; box-sizing: border-box; border-radius: 50%; border: 5px solid #ffcc66; box-shadow: 0 0 20px rgba(255, 204, 102, 0.3); margin: 15px 0; }
 
         /* --- MENU CONTENT SECTION --- */
         .menu-padding { padding: 20px 25px; flex: 1; display: flex; flex-direction: column; }
         
         h2 { 
-            color: #ffcc66; 
+            color: #000; 
             border-bottom: 1.5px solid #5d462a; 
             padding-bottom: 3px; 
             font-size: 1.05em; 
@@ -93,9 +93,10 @@
             text-align: center;
         }
         
-        .menu-item { display: flex; justify-content: space-between; font-weight: bold; margin-bottom: 6px; font-size: 0.95em; }
-        .item-name { color: #fff; text-align: left; }
-        .price { color: #ffcc66; padding-left: 10px; }
+        .menu-item { display: flex; justify-content: space-between; font-weight: bold; margin-bottom: 6px; font-size: 0.95em; color: #4b220f; }
+        .menu-item span:not(.price) { color: #4b220f; }
+        .item-name { color: #4b220f; text-align: left; }
+        .price { color: #000; padding-left: 10px; }
         
         .bottom-grid { 
             display: grid; 
@@ -104,12 +105,13 @@
             margin-top: 5px;
         }
 
-        .star::after { content: "★ "; color: #ffcc66; margin-left: 4px; }
+
+        .star::after { content: " \2605"; color: #000; margin-left: 4px; }
 
         .announcement-bar {
-            background: rgba(255, 204, 102, 0.05); border: 1px dashed #8e6d3d;
+            background: rgba(255, 255, 255, 0.45); border: 1px dashed #4b220f;
             border-radius: 8px; padding: 10px; margin: 15px 0;
-            font-size: 0.75em; color: #ffcc66; font-style: italic; text-align: center;
+            font-size: 0.75em; color: #000; font-style: italic; text-align: center;
         }
 
         .img-wrapper-bottom { width: 100%; border-top: 1px solid #8e6d3d; margin-top: auto; }
@@ -122,7 +124,7 @@
     <div class="icing-border">
         <div class="cover-page">
             <div class="natural-popup top-left-qr">
-                <div class="qr-icon-box"><img src="https://i.postimg.cc/ZntjJX6x/Feedback.png" style="width:100%;" alt="QR"></div>
+                <div class="qr-icon-box"><img src="https://i.postimg.cc/MvDmKCLn/NO-BG-FEEDBACK-QR.png" style="width:100%;" alt="QR"></div>
                 <span style="font-size: 0.5em; font-weight: bold;">FEEDBACK</span>
             </div>
             <div class="natural-popup top-right-partners">
@@ -135,7 +137,7 @@
                 <img src="https://i.postimg.cc/xqvPBVjX/NEW-LOGO.png" class="cover-logo" alt="TAGS Logo">
                 <div style="background: rgba(255, 204, 102, 0.1); border: 1px dashed #ffcc66; border-radius: 12px; padding: 10px 20px; color: #f1d297; font-size: 0.85em;">
                     FOR BULK ORDERS & EVENTS
-                    <span style="display: block; font-size: 1.3em; color: white; font-weight: bold;">+91 99990 79752</span>
+                    <span style="display: block; font-size: 1.3em; color: black; font-weight: bold;">+91 99990 79752</span>
                 </div>
             </div>
         </div>
@@ -146,47 +148,47 @@
     <div class="icing-border">
         <div class="menu-padding">
             <h2>Chole Kulcha Specials</h2>
-            <div class="menu-item"><span class="star item-name">Classic Chole Kulcha</span> <span class="price">₹100</span></div>
-            <div class="menu-item"><span class="item-name">Garlic Kulcha with Chole</span> <span class="price">₹110</span></div>
-            <div class="menu-item"><span class="item-name">Butter Chole Kulcha</span> <span class="price">₹110</span></div>
+            <div class="menu-item"><span class="star item-name">Classic Chole Kulcha</span> <span class="price">&#8377;100</span></div>
+            <div class="menu-item"><span class="item-name">Garlic Kulcha with Chole</span> <span class="price">&#8377;110</span></div>
+            <div class="menu-item"><span class="item-name">Butter Chole Kulcha</span> <span class="price">&#8377;110</span></div>
 
             <h2>Stuffed Kulcha</h2>
-            <div class="menu-item"><span class="star item-name">Paneer Stuffed</span> <span class="price">₹110</span></div>
-            <div class="menu-item"><span class="item-name">Chole Stuffed</span> <span class="price">₹100</span></div>
-            <div class="menu-item"><span class="item-name">Aloo Stuffed</span> <span class="price">₹90</span></div>
-            <div class="menu-item"><span class="item-name">Paneer Pizza Stuffed Kulcha</span> <span class="price">₹100</span></div>
-            <div class="menu-item"><span class="item-name">Veg Pizza Stuffed Kulcha</span> <span class="price">₹90</span></div>
-            <div class="menu-item"><span class="item-name">Cheese Melt Kulcha</span> <span class="price">₹70</span></div>
+            <div class="menu-item"><span class="star item-name">Paneer Stuffed</span> <span class="price">&#8377;110</span></div>
+            <div class="menu-item"><span class="item-name">Chole Stuffed</span> <span class="price">&#8377;100</span></div>
+            <div class="menu-item"><span class="item-name">Aloo Stuffed</span> <span class="price">&#8377;90</span></div>
+            <div class="menu-item"><span class="item-name">Paneer Pizza Stuffed Kulcha</span> <span class="price">&#8377;100</span></div>
+            <div class="menu-item"><span class="item-name">Veg Pizza Stuffed Kulcha</span> <span class="price">&#8377;90</span></div>
+            <div class="menu-item"><span class="item-name">Cheese Melt Kulcha</span> <span class="price">&#8377;70</span></div>
 
             <div class="bottom-grid">
                 <div>
                     <h2>Rice Specials</h2>
-                    <div class="menu-item"><span>Rice and Chole</span> <span class="price">₹100</span></div>
-                    <div class="menu-item"><span class="star">Rice and Paneer</span> <span class="price">₹120</span></div>
+                    <div class="menu-item"><span>Rice and Chole</span> <span class="price">&#8377;100</span></div>
+                    <div class="menu-item"><span class="star">Rice and Paneer</span> <span class="price">&#8377;120</span></div>
                     
                     <h2>Maggi Mania</h2>
-                    <div class="menu-item"><span>Masala Maggi</span> <span class="price">₹60</span></div>
-                    <div class="menu-item"><span>Vegetable Maggi</span> <span class="price">₹70</span></div>
-                    <div class="menu-item"><span>Peri-Peri Maggi</span> <span class="price">₹60</span></div>
+                    <div class="menu-item"><span>Masala Maggi</span> <span class="price">&#8377;60</span></div>
+                    <div class="menu-item"><span>Vegetable Maggi</span> <span class="price">&#8377;70</span></div>
+                    <div class="menu-item"><span>Peri-Peri Maggi</span> <span class="price">&#8377;60</span></div>
                 </div>
                 <div>
                     <h2>Add Ons</h2>
-                    <div class="menu-item"><span>Plain Kulcha</span> <span class="price">₹30</span></div>
-                    <div class="menu-item"><span>Masala Chole</span> <span class="price">₹50</span></div>
-                    <div class="menu-item"><span>Extra Salad</span> <span class="price">₹20</span></div>
-                    <div class="menu-item"><span>Extra Cheese</span> <span class="price">₹30</span></div>
-                    <div class="menu-item"><span>Boondi Raita</span> <span class="price">₹30</span></div>
-                    <div class="menu-item"><span>Veg Raita</span> <span class="price">₹40</span></div>
+                    <div class="menu-item"><span>Plain Kulcha</span> <span class="price">&#8377;30</span></div>
+                    <div class="menu-item"><span>Masala Chole</span> <span class="price">&#8377;50</span></div>
+                    <div class="menu-item"><span>Extra Salad</span> <span class="price">&#8377;20</span></div>
+                    <div class="menu-item"><span>Extra Cheese</span> <span class="price">&#8377;30</span></div>
+                    <div class="menu-item"><span>Boondi Raita</span> <span class="price">&#8377;30</span></div>
+                    <div class="menu-item"><span>Veg Raita</span> <span class="price">&#8377;40</span></div>
                 </div>
             </div>
 
             <h2>Drinks</h2>
             <div style="display: flex; justify-content: space-around; font-weight: bold; font-size: 0.95em;">
-                <div class="menu-item" style="width: 40%;"><span>Jaljeera</span> <span class="price">₹50</span></div>
-                <div class="menu-item" style="width: 40%;"><span>Buttermilk</span> <span class="price">₹40</span></div>
+                <div class="menu-item" style="width: 40%;"><span>Jaljeera</span> <span class="price">&#8377;50</span></div>
+                <div class="menu-item" style="width: 40%;"><span>Buttermilk</span> <span class="price">&#8377;40</span></div>
             </div>
 
-            <div class="announcement-bar">Prepared Fresh • Add-Ons Available for Kulchas & Maggi</div>
+            <div class="announcement-bar">Prepared Fresh &bull; Add-Ons Available for Kulchas & Maggi</div>
         </div>
     </div>
 </div>
